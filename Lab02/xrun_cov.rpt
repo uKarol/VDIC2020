@@ -1,0 +1,27 @@
+*I,RUNLD: Successfully loaded run /home/student/kujda/VDIC/VDIC2020/Lab02/cov_work/scope/lab02.
+*I,MERGL1: Merging Simulation Coverage ...
+----------------------------
+*I,MERGL1: Preparing target model ...
+*I,MERGL1: Reading model of primary run (cov_work/scope/lab02) as initial model: cov_work/scope/icc_633e83bf_4a79650d.ucm
+*I,MERGL1: Target model generated successfully.
+*I,MERGL1: Projecting Simulation ucd data into the target model ...
+*I,MERGL2:   cov_work/scope/lab02:
+*I,MERGL3:       Data is projected in to the target model.
+*I,MERGL1: Writing output database cov_work/scope/merged_results:
+*I,MERGL2:   Model: cov_work/scope/merged_results/icc_633e83bf_4a79650d.ucm
+*I,MERGL2:   Data : cov_work/scope/merged_results/icc_633e83bf_4a79650d.ucd
+*I,MERGL1: No Specman coverage databases found in the runs.
+Total conflicts during target model creation: 0
+Total items not merged                      : 0
+Total runs not considered during target model creation: 0
+Total runs not merged                                 : 0
+*I,RUNLD: Successfully loaded run /home/student/kujda/VDIC/VDIC2020/Lab02/cov_work/scope/merged_results.
+*W,REPDEP: This is a legacy report and no future enhancement is planned for this report. It is recommended that you use the 'report_metrics' command and generate a dynamic report.
+name                                     Overall Average      Overall Covered      Code Average         Code Covered         Fsm Average          Fsm Covered          Functional Average   Functional Covered   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top                                      n/a                  n/a                  n/a                  n/a                  n/a                  n/a                  n/a                  n/a                  
+|--bfm                                   85.03%               79.42% (440/554)     85.03%               79.42% (440/554)     n/a                  n/a                  n/a                  n/a                  
+|--tester_i                              81.02%               82.18% (83/101/3)    81.02%               82.18% (83/101/3)    n/a                  n/a                  n/a                  n/a                  
+|--coverage_i                            94.38%               98.43% (125/127)     100.00%              100.00% (73/73)      n/a                  n/a                  88.75%               96.30% (52/54)       
+|--scoreboard_i                          76.60%               75.42% (89/118)      76.60%               75.42% (89/118)      n/a                  n/a                  n/a                  n/a                  
+|--DUT                                   96.43%               96.43% (54/56)       96.43%               96.43% (54/56)       n/a                  n/a                  n/a                  n/a                  
